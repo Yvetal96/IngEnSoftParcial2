@@ -1,23 +1,123 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 header{
 	background:url("img/bigheader.jpg");
-	height: 659px;
+	height: 720px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-nav{
-	line-height: 2px;
-	background-position: center;
+ul{
+	width: 100%;
+	height: 40px;
+	display: block;
 }
-.menu a{
-	color: white;
-	padding: 19px;
-}
-.menu{
+ul li{
 	display: inline-block;
-	text-align: left;
+	float: left;
 }
-#nav_menu{
-	list-style: none;
-	margin: 0;
-	padding: 9px;
+li a{
+	color: white;
+	font-size: 15px;
+	padding: 8px 6px;
+	display: block;
+	border-top: 5px solid transparent;
+}
+.activo, li a:hover{
+	font-weight: bold;
+	border-top: 5px solid #54d154;
+	color: #fff;
+	text-decoration: none;
+
+}
+.buscador{
+	background: rgb(217,216,216, 0.9);
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    padding: 7px 14px;
+    font-size: 16px;
+    color: #111111;
+    width: 100%;
+    margin-top: 5px;
+}
+#center-header{
+	height: 596px;
+}
+#centradito{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#centradito h1{
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+}
+#centradito a{
+	background: #54d154;
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 205px;
+	height: 49px;
+	padding: 12px 0;
+	font-weight: normal;
+	font-size: 21px;
+	transition: 0.5s ease all;
+}
+#centradito a:hover{
+	text-decoration: none;
+	background:#f34d04; 
+	transform:scale(1.05);
+}
+#centrado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#centrado h1{
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+}
+#centrado a{
+	background: rgb(217,216,216, 0.9);
+	color: #272727;
+	border-radius: 15px;
+	text-align: center;
+	display: block;
+	width: 123px;
+	height: 24px;
+	padding: 4px 0;
+	font-weight: normal;
+	font-size: 13px;
+	transition: 0.5s ease all;
+}
+#linea2{
+	display: flex;
+	justify-content: center; /*orisontamelte*/ 
+
+}
+#linea2 a{
+	background:rgba(217,216,216, 0.9);
+	border: none;
+	border-radius: 20px;
+	width: 122px;
+	height: 22px;
+	color: #111111;
+	text-align: center;
+	padding: 2px 0px;
+	text-decoration: none;
+	font-size: 12px;
+	}
+#centrado a:hover{
+	text-decoration: none;
+	background:#f34d04; 
+	transform:scale(1.05);
+}
+.distancia{
+margin-left: 10px;
 }
