@@ -1,17 +1,17 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><!--Sirve para cargar el CDN de la hoja de estilo.css-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <header class="container-fluid">
-      <div class="row">
+<head>
+  <meta charset="utf-8"> <!--Seleccionar el Set de Caracteres-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Sirve para seleccionar el viewport de la pantalla, es decir, a que escala estará definido -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!--Sirve para cargar el CDN de la hoja de estilos de Bootstrap-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Hello, world!</title> <!--Definir título en la barra de título-->
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
       <nav class="col-md-4">
         <ul>
           <li><a href="#" class="activo">Home</a></li>
@@ -24,63 +24,92 @@
         <form action="#">
           <input type="text" placeholder="Search..." class="buscador">
         </form>
+      </div>  
+    </div>
+    <div class="row" id="center-header">
+      <div class="col-md-12" id="centradito">
+        <h1 class="text-center">Art is Eternal Happiness</h1>
+        <a href="#" class="d-block text-center">WORK WITH US</a>
       </div>
     </div>
-      <div class="row" id="center-header">
-        <div class="col-md-12" id="centradito">
-          <h1 class="text-center">Art is Eternal Happiness</h1>
-          <a href="#" class="d-block text-center">WORK WITH US</a>
-        </div>
-      </div>
-        <div id="Linea2">
-      <div class="col-md-12" id="scrolldownboton">
-        <a  href="#" class="d-block text-center">scroll down<i class="fa fa-arrow-down distancia" aria-hidden="true"></i></a>
-          </div>
-        </div>
-    </header>
-    <!--<a href="#" class="btn btn-danger">Ir a Google</a>-->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-        <div class="col-md-12">
-          <h1 class="text-center" id="text1">WHAT WE DO</h1>
-        </div>
-          </div>
-            </div>
-              </div>
-        <div class="col">
-          <div class="row">
-            <div id="scrolldownboton">
-              <hr class="barrita">
+    <div class=" offset-sm-5 col-2">
+      <a href="#" class="scroll">scroll down</a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-8 offset-2 encabezado">
+        <h2>WHAT WE DO</h2>
+        <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
       </div>
     </div>
-    <div>
-    <h1 class="text-center" id="text2">Lorem ipsum dolor sit amet, Proin gravida nibh vel velit auctor aliquet.</h1>
+    <div class="row">
+      <article class="col article">
+        <div class="wrapper-img">
+          <i class="fas fa-camera-retro"></i>
+        </div>
+        <h3>Lorem Ipsum</h3>
+        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+        <a href="#">Learn more</a>
+      </article>
+      <article class="col article">
+        <div class="wrapper-img">
+          <i class="fas fa-tachometer-alt"></i>
+        </div>
+        <h3>Lorem Ipsum</h3>
+        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+        <a href="#">Learn more</a>
+      </article>
+      <article class="col article">
+        <div class="wrapper-img">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <h3>Lorem Ipsum</h3>
+        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+        <a href="#">Learn more</a>
+      </article>
+    </div>
   </div>
-  
-  </article>
-  </section>
-  <div id="seccion" ">
-  <div class ="contenedor">
-    <img src="img/Forma 1.png" alt="...">
-    <h3 > Lorem ipsum</h3>
-    <p> This is Photoshop's version  of Lorem Ipsum, Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
-      <a class="d-block text-center" id="boton2" href="#">Learn more</a>
-</div>
-<div>
-  <img src="img/Forma 2.png" alt="">
-  <h3>Lorem ipsum</h3>
-  <p>This is Photoshop's version  of Lorem Ipsum, Proin gravida nibh vel velit auctor aliquet. 
-Aenean sollicitudin, lorem quis bibendum auctor,</p>
-  <a class="d-block text-center" id="" href="#">Learn more</a>
-</div>
-  <div>
-    <img src="img/Forma 3.png" alt="">
-  <h3>Lorem ipsum</h3>
-  <p>This is Photoshop's version  of Lorem Ipsum, Proin gravida nibh vel velit auctor aliquet.
-    Aenean sollicitudin, lorem quis bibendum auctor,</p>
-    <a class="d-block text-center" id="" href="#">Learn more</a>
-  </div>
+  <div class="container-fluid">
+    <div class="row bg_verde">
+      <div class="col-8 offset-2 encabezado">
+        <h2>OUR LATEST WORK</h2>
+        <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+        <div class="botones1">
+          <a href="#">Photography</a>
+          <a href="#">Design</a>
+          <a href="#">Print</a>
+        </div>
+        <div class="imagenes1">
+          <img src="img/img1.png" alt="Arbol">
+          <img src="img/img2.png" alt="Compu">
+          <img src="img/img3.png" alt="pastel">
+          <img src="img/img4.png" alt="gato">
+          <img src="img/img5.png" alt="programar">
+          <img src="img/img6.png" alt="mesadetrabajo">
+          <img src="img/img7.png" alt="nosequesea">
+          <img src="img/img8.png" alt="clavo">
+          <img src="img/img9.png" alt="love">
+          <img src="img/img10.png" alt="quiensabe">
+        </div>
+      <div "col-md-12" id="centradito2">
+        <a class="viewmore" href="#">View More Work</a>
+        </div>
+      </div>
+      <div class="container-fluid">
+    <div class="row bg_blanco">
+      <div class="col-8 offset-2 encabezado2">
+        <h2>TESTIMONIALS</h2>
+        <p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+        <p class="texto1">“Awalnya saya tidak menderita penyakit apapun,</br>
+        namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan</br>
+        tidak menderita penyakit apapun!”</p>
+        <div class="cliente">
+         <img src="img/Herp.png" alt="meme">
+         <p class="nombre">Mr. Herp</p>
+         <p class="compania">CEO of Meme, Inc.</p>
+      </div>
+    </div>
   </div>
   </body>
 </html>
